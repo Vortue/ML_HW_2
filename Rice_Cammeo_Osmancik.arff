@@ -1,19 +1,4 @@
-% DATASET: https://www.muratkoklu.com/datasets/
-% Reference: Cinar, I. and Koklu, M. (2019). Classification of Rice Varieties Using Artificial Intelligence Methods. International Journal of Intelligent Systems and Applications in Engineering,  vol.7, no.3 (Sep. 2019), pp.188-194.
-% https://doi.org/10.18201/ijisae.2019355381(https://www.ijisae.org/IJISAE/article/view/1068)
-% DATASET: https://www.muratkoklu.com/datasets/
-
-@RELATION Rice_Cammeo_Osmancik
-@ATTRIBUTE Area Integer
-@ATTRIBUTE Perimeter Real
-@ATTRIBUTE Major_Axis_Length Real
-@ATTRIBUTE Minor_Axis_Length Real
-@ATTRIBUTE Eccentricity	Real
-@ATTRIBUTE Convex_Area	Integer
-@ATTRIBUTE Extent Real
-@ATTRIBUTE Class {Cammeo, Osmancik}
-
-@DATA
+Area Integer, Perimeter Real, Major_Axis_Length Real, Minor_Axis_Length Real, Eccentricity	Real, Convex_Area	, Extent Real, Class {Cammeo, Osmancik}
 15231,525.5789794921875,229.7498779296875,85.09378814697266,0.9288820028305054,15617,0.5728955268859863,Cammeo
 14656,494.3110046386719,206.0200653076172,91.73097229003906,0.8954049944877625,15072,0.615436315536499,Cammeo
 14634,501.12200927734375,214.10678100585938,87.7682876586914,0.9121180772781372,14954,0.6932588219642639,Cammeo
